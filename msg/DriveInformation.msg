@@ -1,26 +1,25 @@
-float32 AccFromOBD # 加速度[G]
-int32 ActualGasStroke #油门行程当前值(0〜4095)
-int32 ActualShift #档位当前值 0x00 B 0x10 D 0x20 N 0x40 R 0x80 P 0x0F Start 0xFF Unknown
-float32 ActualVeloc    #车速0.00〜180.00[km/h]
-int32 ContMode #控制模式 0x00 velocity 0x01 stroke
-float32 CoolantTempFromOBD #冷却液温度[℃]
-bool CruiseControlFromOBD #巡航控制状态
-int32 DriveModeFromOBD	#驾驶模式 0 P 1 R 2 N 3 D 4 B
-int32 GasStrokeFromOBD #油门行程(0〜4095)	
-int32 IceRpm #发动机转速
-int32 InputGasStroke #油门行程输入值(0〜4095)
-int32 InputShift #档位输入值 0x00 B 0x10 D 0x20 N 0x40 R 0x80 P 0x0F Start 0xFF Unknown
-int32 Mode #Drive模式 0x00 手动 0x01 自动
-int32 OverrideMode #Override模式 0x00 ON 0x01 OFF
-int32 Servo #Servo 0x00 OFF 0x01 ON
-int32 ShiftFromOBD #档位 0x00 B 0x10 D 0x20 N 0x40 R
-float32 SideAccFromOBD #侧向加速度[G]
-int32 TargetGasStroke #油门行程目标值(0〜4095)
-int32 TargetShift #档位目标值 0x00 B 0x10 D 0x20 N 0x40 R 0x80 P 0x0F Start
-int32 TargetVeloc #车速目标值0.00〜180.00[km/h]
-float32 VelocFLFromOBD #前左轮速度[km/h]
-float32 VelocFRFromOBD #前右轮速度[km/h]
-float32 VelocRLFromOBD #后左轮速度[km/h]
-float32 VelocRRFromOBD #后右轮速度[km/h]
-float32 VelocFromOBD #当前车速[km/h]
-
+float32 acc_from_obd # 加速度[_g]
+int32 actual_gas_stroke #油门行程当前值(0〜4095)
+int32 actual_shift #档位当前值 0x00 _b 0x10 _d 0x20 _n 0x40 _r 0x80 _p 0x0_f _start 0x_f_f _unknown
+float32 actual_veloc    #车速0.00〜180.00[km/h]
+int32 cont_mode #控制模式 0x00 velocity 0x01 stroke
+float32 coolant_temp_from_obd #冷却液温度[℃]
+bool cruise_control_from_obd #巡航控制状态
+int32 drive_mode_from_obd	#驾驶模式 0 _p 1 _r 2 _n 3 _d 4 _b
+int32 gas_stroke_from_obd #油门行程(0〜4095)	
+int32 ice_rpm #发动机转速
+int32 input_gas_stroke #油门行程输入值(0〜4095)
+int32 input_shift #档位输入值 0x00 _b 0x10 _d 0x20 _n 0x40 _r 0x80 _p 0x0_f _start 0x_f_f _unknown
+int32 mode #_drive模式 0x00 手动 0x01 自动
+int32 override_mode #_override模式 0x00 _o_n 0x01 _o_f_f
+int32 servo #_servo 0x00 _o_f_f 0x01 _o_n
+int32 shift_from_obd #档位 0x00 _b 0x10 _d 0x20 _n 0x40 _r
+float32 side_acc_from_obd #侧向加速度[_g]
+int32 target_gas_stroke #油门行程目标值(0〜4095)
+int32 target_shift #档位目标值 0x00 _b 0x10 _d 0x20 _n 0x40 _r 0x80 _p 0x0_f _start
+int32 target_veloc #车速目标值0.00〜180.00[km/h]
+float32 veloc_f_l_from_obd #前左轮速度[km/h]
+float32 veloc_f_r_from_obd #前右轮速度[km/h]
+float32 veloc_r_l_from_obd #后左轮速度[km/h]
+float32 veloc_r_r_from_obd #后右轮速度[km/h]
+float32 veloc_from_obd #当前车速[km/h]
