@@ -1,0 +1,7 @@
+float32 CurrentChgMaxFromOBD #最大充电电流[A]
+float32 CurrentDischgMaxFromOBD #最大放电电流[A]
+float32 CurrentFromOBD #当前电流[A]
+float32 SocFromOBD #电池状态[%]
+int32 TempMaxFromOBD #电池最高温度[℃]
+int32 TempMinFromOBD #电池最低温度[℃]
+int32 VoltageFromOBD #电池电压[V]
