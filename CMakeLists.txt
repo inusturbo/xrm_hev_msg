@@ -6,8 +6,12 @@ find_package(ros_environment REQUIRED)
 set(ROS_VERSION $ENV{ROS_VERSION})
 
 set(MSG_FILES
-  "AccelAuxRpt.msg"
-
+  "batteryinformation.msg"
+  "BrakeInformation.msg"
+  "DriveInformation.msg"
+  "ImuInformation.msg"
+  "OtherInformation.msg"
+  "SteeringInformation.msg"
 )
 
 if(${ROS_VERSION} EQUAL 1)
